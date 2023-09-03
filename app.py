@@ -30,10 +30,10 @@ app.secret_key = secret_key
 def connect_to_database():
     try:
         connection = pymysql.connect(
-            host='localhost',
-            user='brian',
-            password='orbit',
-            db='spacex',
+            host='',
+            user='',
+            password='',
+            db='sky',
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor
         )
